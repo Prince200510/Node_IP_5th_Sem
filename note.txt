@@ -1,0 +1,2 @@
+Day 1 - 05/07/2025
+1. Started with git & github
