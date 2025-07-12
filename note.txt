@@ -1,2 +1,10 @@
 Day 1 - 05/07/2025
 1. Started with git & github
+2. setUpTimeout()
+3. Promise 
+
+Day 2 - 12/07/2025
+1. program:- make maggi : 1. open packet, boil water, cut veggies, cut veggies, boil veggies, boil maggi, serve
+2. What is Synchronous Programming?
+3. What is Asynchronous Programming?
+4. Interview Question:- async & await
