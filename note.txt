@@ -8,4 +8,6 @@ Day 2 - 12/07/2025
 2. What is Synchronous Programming?
 3. What is Asynchronous Programming?
 4. Interview Question:- async & await
-5. creating a file package.json [npm init]
+5. creating a file package.json [npm init or npm init -y]
+6. npm install express.js
+7. npm install --dev dotenv
