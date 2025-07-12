@@ -11,3 +11,8 @@ Day 2 - 12/07/2025
 5. creating a file package.json [npm init or npm init -y]
 6. npm install express.js
 7. npm install --dev dotenv
+8. create file and read file 
+9. write a program read and write files operation
+    a. Total read / write operation
+    b. Unique read/write operation
+    hint: Maintain 2 files, 1 for operation, 2 for record
