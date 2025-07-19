@@ -16,3 +16,7 @@ Day 2 - 12/07/2025
     a. Total read / write operation
     b. Unique read/write operation
     hint: Maintain 2 files, 1 for operation, 2 for record
+
+Day 3 -
+1. Map, filter, reduce // pending
+2. Started with Node.js
