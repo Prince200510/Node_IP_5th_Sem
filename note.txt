@@ -20,3 +20,8 @@ Day 2 - 12/07/2025
 Day 3 -
 1. Map, filter, reduce // pending
 2. Started with Node.js
+3. npm i -D typescript tsx dotenv @types/node
+4. -D is the developer version not for a production
+5. npm i express hbs nodemon morgan express -validator
+6. npm i -D @types/express @types/morgan
+7. npx tsx app.ts
