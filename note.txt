@@ -12,16 +12,19 @@ Day 2 - 12/07/2025
 6. npm install express.js
 7. npm install --dev dotenv
 8. create file and read file 
-9. write a program read and write files operation
+9. Problem Statement: write a program read and write files operation
     a. Total read / write operation
     b. Unique read/write operation
     hint: Maintain 2 files, 1 for operation, 2 for record
 
 Day 3 -
-1. Map, filter, reduce // pending
+1. Map, filter, reduce 
 2. Started with Node.js
 3. npm i -D typescript tsx dotenv @types/node
 4. -D is the developer version not for a production
 5. npm i express hbs nodemon morgan express -validator
 6. npm i -D @types/express @types/morgan
 7. npx tsx app.ts
+8. hbs template created 
+9. Created a basic server 
+10. Problem Statement: 

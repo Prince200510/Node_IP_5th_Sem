@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Prince Maurya",
+        "age": 19,
+        "profession": "Student"
+    },
+    {
+        "name": "John Doe",
+        "age": 20,
+        "profession": "Engineer"
+    },
+    {
+        "name": "Jane Smith",
+        "age": 22,
+        "profession": "Designer"
+    }
+]

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,53 @@
     <title>{{title}}</title>
 </head>
 <body>
-    <h1 style="color: red;">{{message}}</h1>
+    <h1 style="color: red;">{{title}}</h1>
+    
+    {{#if students.length}}
+    <table border="1" cellpadding="8" style="margin-top:20px;">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Profession</th>
+        </tr>
+        {{#each students}}
+        <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.age}}</td>
+            <td>{{this.profession}}</td>
+        </tr>
+        {{/each}}
+    </table>
+    {{else}}
+    <p>No data available.</p>
+    {{/if}}
 </body>
-</html>
+</html> --}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+<body>
+    <h1 style="color: red;">{{title}}</h1>
+    {{#if students.length}}
+    <table border="1" cellpadding="8" style="margin-top:20px;">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Profession</th>
+        </tr>
+        {{#each students}}
+        <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.age}}</td>
+            <td>{{this.profession}}</td>
+        </tr>
+        {{/each}}
+    </table>
+    {{else}}
+    <p>No data available.</p>
+    {{/if}}
+</body>
