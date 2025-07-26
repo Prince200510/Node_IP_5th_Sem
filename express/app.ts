@@ -7,6 +7,8 @@ import { dirname } from 'path';
 import {PORT} from './Env';
 import { appendFile } from 'fs';
 import router from './controllers';
+import './MongoDB/database';
+import userrouter from './controllers/user';
 // import dotenv from 'dotenv';
 // dotenv.config();
 
@@ -14,13 +16,14 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 
-app.set('views', path.join(__dirname, 'views')); // Correct key is 'views', not 'view'
+app.set('views', path.join(__dirname, 'views')); 
 app.set('view engine', 'hbs');
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use('/', router);
+app.use('/user', userrouter);
 
 app.all('/', 
     (req: Request, res: Response, next: NextFunction) => {

@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "express": "^5.1.0",
+    "express-validator": "^7.2.1",
     "hbs": "^4.2.0",
     "mongodb": "^6.18.0",
     "mongoose": "^8.16.5",
