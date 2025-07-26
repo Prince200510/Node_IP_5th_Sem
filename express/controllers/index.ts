@@ -1,3 +1,22 @@
+import { checkSchema } from 'express-validator';
+export const studentSchema = checkSchema({
+    name: {
+        isString: true,
+        notEmpty: true,
+        isLength: { options: { min: 5, max: 20 } },
+        trim: true,
+    },
+    age: {
+        isInt: true,
+        toInt: true,
+    },
+    profession: {
+        isString: true,
+        notEmpty: true,
+        isLength: { options: { min: 5, max: 20 } },
+        trim: true,
+    }
+});
 
 import express, { Request, Response, NextFunction } from 'express';
 import { middleWareWrapper } from '../tools';

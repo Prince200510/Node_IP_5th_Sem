@@ -17,7 +17,7 @@ Day 2 - 12/07/2025
     b. Unique read/write operation
     hint: Maintain 2 files, 1 for operation, 2 for record
 
-Day 3 -
+Day 3 - 19/07/2025
 1. Map, filter, reduce 
 2. Started with Node.js
 3. npm i -D typescript tsx dotenv @types/node
@@ -28,3 +28,8 @@ Day 3 -
 8. hbs template created 
 9. Created a basic server 
 10. Problem Statement: 
+
+Day 4 - 26/07/2025
+1. mongodd
+2. SQL and NoSQL --- Interview Question
+3. Schema, Model
