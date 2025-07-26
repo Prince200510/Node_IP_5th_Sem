@@ -33,3 +33,7 @@ Day 4 - 26/07/2025
 1. mongodd
 2. SQL and NoSQL --- Interview Question
 3. Schema, Model
+4. CRUD operation
+5. RBAC - Role based
+6. ABAC - Attribute
+7. Authentication
