@@ -37,3 +37,8 @@ Day 4 - 26/07/2025
 5. RBAC - Role based
 6. ABAC - Attribute
 7. Authentication
+
+Important Point:
+1. DSA 
+2. Open Source
+3. re-packaging creating
